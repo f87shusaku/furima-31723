@@ -2,16 +2,16 @@
 
 ## users テーブル
 
-| Column        | Type   | Options     |
-| ------------- | ------ | ----------- |
-| nickname      | string | null: false |
-| first_name    | string | null: false |
-| family_name   | string | null: false |
-| first_name_k  | string | null: false |
-| family_name_k | string | null: false |
-| email         | string | null: false |
-| password      | string | null: false |
-| birth_day     | date   | null: false |
+| Column             | Type   | Options     |
+| ------------------ | ------ | ----------- |
+| nickname           | string | null: false |
+| first_name         | string | null: false |
+| family_name        | string | null: false |
+| first_name_k       | string | null: false |
+| family_name_k      | string | null: false |
+| email              | string | null: false |
+| encrypted_password | string | null: false |
+| birth_day          | date   | null: false |
 
 ### Association
 - has_many :items
@@ -53,7 +53,7 @@
 | Column         | Type       | Options                        |
 | -------------- | ---------- | ------------------------------ |
 | postal_code    | string     | null: false                    |
-| prefectures    | integer    | null: false                    |
+| prefectures_id | integer    | null: false                    |
 | municipalities | string     | null: false                    |
 | address        | string     | null: false                    |
 | building       | string     |                                |
@@ -61,5 +61,4 @@
 | purchase       | references | null: false, foreign_key: true |
 
 ### Association
-- belongs_to :user
 - belongs_to :purchase
