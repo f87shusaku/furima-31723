@@ -1,6 +1,12 @@
+<<<<<<< Updated upstream
 <mxfile host="65bd71144e" modified="2020-11-03T11:50:16.927Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.50.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" version="13.6.5" etag="67iom6rp_3fji8wE1R5_">
     <diagram id="i-Yx-mrWIVkb-1o-huOO" name="ページ1">
         <mxGraphModel dx="2372" dy="1793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+=======
+<mxfile host="65bd71144e" modified="2020-11-03T10:36:09.208Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.50.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" version="13.6.5" etag="fgaLBVvGbR1Tf68PEel7">
+    <diagram id="i-Yx-mrWIVkb-1o-huOO" name="ページ1">
+        <mxGraphModel dx="1477" dy="1793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+>>>>>>> Stashed changes
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -138,7 +144,11 @@
                         <mxPoint x="950" y="560" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
+<<<<<<< Updated upstream
                 <mxCell id="192" value="multiple_addresse" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;align=center;resizeLast=1;fontSize=20;" vertex="1" parent="1">
+=======
+                <mxCell id="192" value="multiple_addresses" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;align=center;resizeLast=1;fontSize=20;" vertex="1" parent="1">
+>>>>>>> Stashed changes
                     <mxGeometry x="950" y="705" width="610" height="480" as="geometry"/>
                 </mxCell>
                 <mxCell id="193" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="192">
@@ -237,6 +247,7 @@
                         <mxPoint x="950" y="1010" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
+<<<<<<< Updated upstream
                 <mxCell id="219" value="user_id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" vertex="1" parent="1">
                     <mxGeometry x="1100" y="230" width="80" height="30" as="geometry"/>
                 </mxCell>
@@ -252,6 +263,8 @@
                 <mxCell id="223" value="user_id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" vertex="1" parent="1">
                     <mxGeometry x="990" y="1110" width="80" height="30" as="geometry"/>
                 </mxCell>
+=======
+>>>>>>> Stashed changes
             </root>
         </mxGraphModel>
     </diagram>

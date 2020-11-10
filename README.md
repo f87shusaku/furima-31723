@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 設計
 
 ## users テーブル
@@ -62,3 +63,25 @@
 
 ### Association
 - belongs_to :order
+=======
+## usersテーブル
+
+| Column       | Type      | Options     |
+|------------- | --------- | ----------- |
+| nickname     | string    | null: false |
+| email        | string    | null: false |
+| password     | string    | null: false |
+| first_name   | string    | null: false |
+| family_name  | string    | null: false |
+| birth_year   | integer   | null: false |
+| birth_month  | integer   | null: false |
+| birth_day    | integer   | null: false |
+
+
+
+### Association
+has_many 
+
+|Column|Type|Options|
+|------|----|-------|
+>>>>>>> Stashed changes
