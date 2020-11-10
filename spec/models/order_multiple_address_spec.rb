@@ -10,6 +10,11 @@ RSpec.describe OrderMultipleAddress, type: :model do
       it '必要な情報が入力されていれば購入記録、住所の保存ができる' do
         expect(@order_multiple_address).to be_valid
       end
+
+      it 'buildingが空の場合保存できる' do
+        @order_multiple_address.building = ''
+        expect(@order_multiple_address).to be_valid
+      end
     end
 
     context '購入記録、住所が保存できない場合' do
@@ -65,6 +70,7 @@ RSpec.describe OrderMultipleAddress, type: :model do
         @order_multiple_address.valid?
         expect(@order_multiple_address.errors.full_messages).to include("Token can't be blank")
       end
+
     end
   end
 end
