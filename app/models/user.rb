@@ -20,6 +20,6 @@ class User < ApplicationRecord
             format: { with: /\A[ァ-ヶー－]+\z/, allow_blank: true }
 
   has_many :items
-  has_many :purchases
-  has_many :multiple_addresses
+  has_many :orders
+  has_many :multiple_address
 end
