@@ -6,7 +6,7 @@ function taxPrice() {
     taxPrice.innerHTML = Math.floor(inputValue * 0.1);
     const profitPrice = document.getElementById("profit");
     profitPrice.innerHTML = Math.floor(inputValue * 0.9);
-  })
-}
+  });
+};
 
 window.addEventListener('load', taxPrice)
